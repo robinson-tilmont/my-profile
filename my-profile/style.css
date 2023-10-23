@@ -1,0 +1,78 @@
+/* Colors and fonts */
+
+body {
+  background-color: #33FFE6;
+  color: rgb(45, 45, 45);
+  font-family:'Roboto';
+  font-size: 18px;
+  margin: 250px;
+  width: 700px;
+  padding: 140px;
+}
+h1, h2, h3 {
+  font-family: Roboto;
+  background-color: #33BBFF;
+  text-align: center
+} 
+h1 {
+  color: #ECE318;
+  font-size: 34px;
+.border-image: circle;
+  
+}
+h2 {
+  color: #ECE318;
+  font-size: 27px;
+  font-weight: bold;
+}
+p {
+  font-family: Helvetica;
+  padding: 25px
+}
+a {
+  font-family: 'Helvetica', sans-serif;
+  color: #ECE318;
+  font-weight: 700;
+  font-size: 16px
+}
+a:hover {
+  color: #4A2040;
+  box-shadow: 0px 10px 50px
+
+}
+.container {
+  width: 700px
+  margin : 250px ;
+  text-align: center;
+
+}
+  @media (max-width: 760px) {
+  .container {
+    width: 400px
+}
+.card-white {
+  background-color: white
+  padding: 60px;
+  box-shadow: 0px 10px 30px #EC9DED
+}
+
+.img-circle {
+  border-radius: 40%
+}
+.list-inline li{
+  display: inline;
+  letter-spacing: 60px
+}
+.list-inline i{
+  font-size: 45px
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 400px
+  }
+}
+
+
+}
+}
